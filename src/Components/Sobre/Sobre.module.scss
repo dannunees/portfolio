@@ -1,0 +1,69 @@
+.sobreBox h4 {
+    color: #97EDAA;
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.sobreBox p {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.sobreInfos {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    padding-top: 32px;
+
+    @media(max-width:767px) {
+        flex-direction: column;
+        align-items: center;
+        gap: 48px;
+    }
+}
+
+.infos {
+    max-width: fit-content;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.icone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 62px;
+    height: 62px;
+    border: 1px solid #1F1F1F;
+    background: #101010;
+    border-radius: 50%;
+    transition: 0.3s all;
+}
+
+.icone:hover {
+    transform: scale(1.2);
+}
+
+.infos h4 {
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    margin: 0;
+    text-align: left;
+}
+
+
+.infos p {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+    text-align: left;
+}

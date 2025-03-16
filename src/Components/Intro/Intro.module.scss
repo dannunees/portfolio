@@ -1,0 +1,55 @@
+.introBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    @media(max-width:767px) {
+        flex-direction: column;
+        padding-top: 32px;
+        text-align: center;
+    }
+}
+
+.introBoxLeft p {
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+.introBoxLeft h2 {
+    color: #97EDAA;
+    font-size: 48px;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 24px;
+}
+
+.introBoxLeft button {
+    background: #97EDAA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 193px;
+    height: 42px;
+    border-radius: 4px;
+    color: #0B0B0B;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 50px;
+
+    a {
+        color: #0B0B0B;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    &:hover {
+        border-color: inherit;
+    }
+
+    @media(max-width:767px) {
+        width: 100%;              
+    }
+}

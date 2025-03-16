@@ -1,0 +1,48 @@
+.boxServico {
+    padding-top: 64px;
+}
+
+.contentBoxes {
+    display: flex;
+    gap: 16px;
+    padding-top: 32px;
+
+    @media(max-width:767px) {
+        flex-direction: column;   
+        gap: 24px;           
+    }
+}
+
+.box {
+    width: calc(33% - 16px);
+    border: 1px solid #1F1F1F;
+    background: #101010;
+    padding: 32px;
+    border-bottom: 4px solid #97EDAA;
+    transition: 0.3s all;
+
+    @media(max-width:767px) {
+        width: 100%;   
+        text-align: center;                
+    }
+}
+
+.box:hover {
+    transform: scale(1.1);
+
+    @media(max-width:767px) {
+        transform: initial;              
+    }
+}
+
+.box h2 {
+    font-size: 32px;
+    font-weight: 400;
+    max-width: 130px;
+    line-height: 32px;
+    color: white;
+
+    @media(max-width:767px) {
+        max-width: 100%;              
+    }
+}

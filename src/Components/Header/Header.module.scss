@@ -1,0 +1,42 @@
+.header {
+    width: 100%;
+    background: #0B0B0B;
+}
+
+.headerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #80808054;
+}
+
+.headerNav {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    list-style: none;
+
+    @media(max-width:767px) {
+        display: none;
+    }
+}
+
+.headerNav li a {
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s all;
+}
+
+.headerNav li a:hover {
+    transform: scale(1.2);
+    color: #97EDAA;
+}
+
+.name {
+    color: #97EDAA;
+    font-size: 24px;
+    font-weight: 400;
+}
