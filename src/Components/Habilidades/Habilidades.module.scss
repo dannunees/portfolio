@@ -40,4 +40,8 @@
 
 .boxHabilidades:hover { 
     transform: scale(1.2);
+
+    @media(max-width:767px) {
+        transform: initial;
+    }
 }
